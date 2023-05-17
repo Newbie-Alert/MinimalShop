@@ -5,14 +5,6 @@ const app = express();
 // 정적파일 경로
 app.use(express.static(__dirname + '/public'));
 
-//ejs 렌더러
-app.set('view engine', 'ejs');
-
-// body-parser
-const bodyParser = require('body-parser');
-app.use(bodyParser.urlencoded({ extended: true }));
-
-
 // 서버 오픈 안내
 app.listen(8080, () => {
   console.log('listening on 8080');
