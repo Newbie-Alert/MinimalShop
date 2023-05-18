@@ -132,18 +132,18 @@
 /* SPONSER */
 
 #sponser {
-  display: grid;
   padding: 2.5rem;
   text-align: center;
   width: 100%;
-  row-gap: 1rem;
+  margin-left: auto;
+  margin-right: auto;
   background-color: #fffbf6;
 }
 
 #sponser h1 {
   color: var(--secondary-color);
   font-weight: 500;
-  font-size: 3rem;
+  font-size: 3em;
 }
 
 .sponser-logos {
@@ -169,6 +169,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 15rem;
+  overflow: hidden;
 }
 
 .about-left,
@@ -383,7 +384,7 @@
     background-color: var(--white-color);
     padding: 1.5rem 3rem;
     opacity: 0.6;
-    transform: translateX(50vw);
+    transform: translateX(100vw);
     transition: transform 0.5s ease;
   }
 

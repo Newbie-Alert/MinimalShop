@@ -6,5 +6,5 @@ menu.addEventListener('click', function () {
   menuBox.style.transform = 'translateX(0)';
 })
 menuClose.addEventListener('click', function () {
-  menuBox.style.transform = 'translateX(50vw)';
+  menuBox.style.transform = 'translateX(200vw)';
 })
