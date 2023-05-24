@@ -4,10 +4,10 @@
   "description": "",
   "main": "server.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "vercel": "vercel dev",
-    "deploy": "vercel deploy"
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
@@ -16,7 +16,8 @@
     "gh-pages": "^5.0.0",
     "nodemon": "^2.0.22"
   },
-  "devDependencies": {
-    "vercel": "^29.4.0"
+  {
+    "homepage": "https://Newbie-Alert.github.io/MinimalShop/"
   }
+  
 }
